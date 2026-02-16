@@ -1,0 +1,11 @@
+Rendering Paradigms
+    1. Where the HTML of our App can be generated?
+        - server se aayega or apna browser isko samjh ke page ya website render kar dega, isme pura sab kuch hoga jo page ko load karne ke badd ke baad show hoga. (Next web app)
+        - client pe ek HTML file and JS file send hogi browser, or js file ka kaam hoga har element create karna website ka. (React web app)
+
+        next js : use both client and server side rendering according to need
+        - ssr:
+            - ssg: server site generation
+            - isr: incremental site regeneration
+
+        - rsc - react server component - it is client side renderingcd
