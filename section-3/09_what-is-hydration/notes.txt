@@ -1,0 +1,5 @@
+Hydration - Hydration is the process where React attaches JavaScript behavior to HTML that was already rendered on the server.
+    - Adding interactivity to pre rendered html pages
+    - links hai tab bhi Hydration hota hai does not matter client or server components
+    - Server sends HTML → Browser loads it → React "activates" it → Page becomes interactive
+    - using extension in browser also cause Hydration
