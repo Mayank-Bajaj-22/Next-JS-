@@ -1,0 +1,22 @@
+Static vs Dynamic Rendering - 
+    SSG – Static Site Generation) - HTML is generated at build time (when you run next build) and reused for every request.
+    - When it happens:
+        - During build
+        - Not on every user request
+
+    Static with Revalidation (ISR) - 
+        - You can regenerate the page after some time: This is called Incremental Static Regeneration (ISR).
+    
+    Dynamic Rendering (SSR – Server Side Rendering)
+        - HTML is generated on every request.
+    When it happens:
+        - Every time a user visits the page
+
+    | Feature                | Static Rendering    | Dynamic Rendering              |
+    | ---------------------- | ------------------- | ------------------------------ |
+    | When HTML is generated | Build time          | On every request               |
+    | Speed                  | Very fast           | Slower (server work each time) |
+    | SEO                    | Excellent           | Excellent                      |
+    | Server Load            | Low                 | Higher                         |
+    | Data Freshness         | Fixed / Revalidated | Always fresh                   |
+    | Best for               | Blogs, marketing    | Dashboards, auth               |
