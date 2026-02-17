@@ -1,0 +1,4 @@
+agar ek baar dynamic page par chale gye like humne only 200 tak static pages generate kiye the and ab hum 201 pe gye vo dynamically generate hoga or .next pe baaki static pages ki tarah uska complete html aa jayega
+
+    - staticParams me user new pages me jata rahega tab vo pages bhi build hote jayenge
+    - dynamicParams false mtlb no new page will generate dynamically
