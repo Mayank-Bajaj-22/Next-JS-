@@ -1,0 +1,40 @@
+Server Component - Server Components run only on the server.
+    - Key Features:
+        - Rendered on the server
+        - Can directly access:
+            - Databases
+            - Backend APIs
+            - File system
+            - Environment variables
+        - Smaller bundle size (not sent to browser)
+        - Better for SEO and performance
+    
+    - When to Use:
+        - Fetching data from a database
+        - Calling secure APIs
+        - Rendering static or dynamic content
+        - Using server-only logic
+
+Client Components - Client Components run in the browser.
+    - Key Features:
+        - Supports:
+            - useState
+            - useEffect
+            - Event handlers (onClick)
+            - Browser APIs (localStorage, window, etc.)
+        - Adds JavaScript to browser bundle
+        - Required for interactivity
+
+
+    | Feature            | Server Component  | Client Component   |
+    | ------------------ | ------------------| ------------------ |
+    | Runs on            | Server            | Browser            |
+    | Access DB directly | ✅                | ❌                |
+    | Uses `useState`    | ❌                | ✅                |
+    | Uses `useEffect`   | ❌                | ✅                |
+    | Smaller bundle     | ✅                | ❌                |
+    | Interactivity      | ❌                | ✅                |
+    | SEO Friendly       | ✅                | ✅                |
+
+    
+    - try not to make full page as client Components try to make small components only client, jitna kaam client pe load utna acha SEO like small component ko humne client banaya toh utha hi part jayega client ko toh file size less so load kaam 
