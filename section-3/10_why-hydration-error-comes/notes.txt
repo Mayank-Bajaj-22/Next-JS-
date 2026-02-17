@@ -1,0 +1,9 @@
+What Is a Hydration Error?
+    - The HTML generated on the server does NOT match what React renders in the browser.
+
+    Common Causes of Hydration Errors:
+        - Math.random()
+        - Date.now()
+        - Using window during render
+        - Different conditional rendering between server & client
+        - Browser-only APIs during SSR
