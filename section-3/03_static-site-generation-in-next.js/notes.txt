@@ -1,0 +1,4 @@
+SSG - happens at build time, dynamically rendered page ko build time pe generate kar dena,
+    - frequently opened pages ko jo dynamically rendered page hai hum unko build time pe hi generate karwa lenge
+    - ssg only good when time to time our content is not changing like you posted vlog you will not change it
+    - if data is changing then we need incremental site generation
