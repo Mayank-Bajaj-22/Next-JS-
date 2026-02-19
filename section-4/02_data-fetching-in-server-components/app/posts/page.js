@@ -34,3 +34,5 @@ const Posts = () => {
 };
 
 export default Posts;
+
+// client component ko hum async nhi bana sakte

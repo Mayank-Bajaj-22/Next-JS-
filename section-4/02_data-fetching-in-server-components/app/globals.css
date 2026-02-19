@@ -53,4 +53,5 @@ p {
 .todo-item {
   display: flex;
   margin-bottom: 1rem;
+  gap: 10px;
 }

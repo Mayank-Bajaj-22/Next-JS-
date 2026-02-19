@@ -22,3 +22,5 @@ const Todos = async () => {
 };
 
 export default Todos;
+
+// server components ko hum async bana sakte hai
