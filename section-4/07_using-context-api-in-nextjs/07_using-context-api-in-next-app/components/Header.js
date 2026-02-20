@@ -4,10 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation"; // for checking current route
 import SunIcon from "./SunIcon";
 import MoonIcon from "./MoonIcon";
+import { useTheme } from "@/context/ThemeContext";
 
 export default function Header() {
-  const isDark = true;
   const pathname = usePathname();
+  const { isDark, toggleTheme} = useTheme()
   return (
     <nav className="navbar">
       <ul>
@@ -40,9 +41,7 @@ export default function Header() {
       </ul>
 
       <button
-        onClick={() => {
-          console.log("Theme button clicked");
-        }}
+        onClick={ toggleTheme }
       >
         {isDark ? <SunIcon /> : <MoonIcon />}
       </button>
