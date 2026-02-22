@@ -1,0 +1,3 @@
+module css use ke liye hume import styles from "filepath karke className={styles.title} aise karke deni hai tab vo individual page par hi lagegi 
+
+in simple css we have to nesting for page class
