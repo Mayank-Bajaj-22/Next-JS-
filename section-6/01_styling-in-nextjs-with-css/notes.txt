@@ -1,0 +1,5 @@
+home.css humne sirf page.js pe import ki hai but vo saare page.js pe lag ja raha hai like about , blog ke bhi lag ja raha hai.
+agar pehle hum about ya blog page open kare without loading home page then it does not show home css
+home.css jab hi load hoti hai jab hum home page pe jaate hai or ek baar yeh load hone ke baad sab page par show hogi
+
+like ab humne blogid page me blogid.css banayi hai toh ab yeh win kar jayegi matlab home.css wali hide ho jayegi matlab uski css nhi dikhegi ab uspe bhi blogid.css wali css dikhegi
